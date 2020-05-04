@@ -7,7 +7,6 @@
       <tittle>Fundamentos com NodeJS</tittle>
   <h2 >
 
-
   ## 💬️ Sobre
 
   Esse exercício me permitiu dar início a implementação dos conceitos de **SOLID** dentro dessa aplição. Foram eles o **Single Responsability Principle** e o **Dependency Invertion Principple**.
