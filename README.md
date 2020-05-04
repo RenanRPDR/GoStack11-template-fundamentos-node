@@ -1,4 +1,4 @@
-<div style="background-color: #666">
+<div>
   <h1 align="center">
       <img src="https://ik.imagekit.io/911o9a87sc/node_E0Z8dA8cB.png" width="320" height="205">
   </h1>
