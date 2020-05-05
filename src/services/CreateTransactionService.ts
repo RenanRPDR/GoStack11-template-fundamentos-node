@@ -15,6 +15,16 @@ class CreateTransactionService {
   }
 
   public execute({ title, value, type }: Request): Transaction {
+    const { total } = this.transactionsRepository.getBalance();
+
+    if (!['income', 'outcome'].includes(type)) {
+      throw new Error('Select the corret transaction type');
+    }
+
+    if (type === 'outcome' && total < value) {
+      throw new Error('You do not have limit to withdraw money');
+    }
+
     const transaction = this.transactionsRepository.create({
       title,
       value,
