@@ -10,7 +10,7 @@
 
   ## 💬️ Sobre
 
-  Esse exercício me permitiu dar implementar os conceitos de **SOLID** dentro dessa aplição. Foram eles o **Single Responsability Principle** e o **Dependency Invertion Principple**.
+  Com esse exercício foi possível implementar os conceitos de **SOLID** dentro dessa aplição. Foram eles o **Single Responsability Principle** e o **Dependency Invertion Principple**.
 
    👨‍💻️ Implementações realizadas:
   - Foi separado toda regra de negócio da lógica de programação ✔️;
